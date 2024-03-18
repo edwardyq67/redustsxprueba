@@ -30,7 +30,7 @@ export const conocimientoSlice = createSlice({
   // `createSlice` infiere el tipo del estado a partir del argumento `initialState`
   initialState,
   reducers: {
-    extraReducer(state, action) {
+    extraReducer() {
       // Aquí va la lógica del reductor adicional
     }
   },
